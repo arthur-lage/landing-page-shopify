@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("imgs/purplewave.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+#logo {
+  width: 10rem;
+}
+
+#title {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  text-shadow: rgba(0, 0, 0, 0.1);
+}
+
+#subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.input-camp {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#email {
+  width: 30rem;
+  padding: 10px;
+  height: 4rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  margin-right: 3rem;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.25);
+}
+
+#get-started-button {
+  color: white;
+  background-color: rgb(39, 39, 39);
+  transition: 0.25s ease-out;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Inter", sans-serif;
+  width: 10rem;
+  height: 3.9rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
+  padding-top: 2px;
+}
+
+#get-started-button:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+#small-subtitle {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.laptop-container {
+  text-align: center;
+}
+
+#laptop {
+  width: 40%;
+}
+
+.texts {
+  display: flex;
+  margin-top: 10rem;
+  justify-content: space-between;
+  margin: 0rem 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.texts i {
+  color: #8f95dd;
+  font-size: 2.35rem;
+  margin-bottom: 1rem;
+  padding: 5px;
+}
+
+.texts strong {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.texts span {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: rgb(61, 61, 61);
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.txt1 {
+  width: 50%;
+  margin: 2.5rem;
+}
+
+.txt2 {
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.txt3 {
+  width: 50%;
+  margin: 2.5rem;
+}
+
+footer {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(99, 99, 99);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(49, 49, 49);
+}
